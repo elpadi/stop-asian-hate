@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+img {
+    max-width: calc(100vw - 20px);
+    height: auto;
+}
+
+.red {
+    color: red;
+}
+.hero {
+    width: 100%;
+    max-width: none;
+}
+h1 {
+    font-size: 48px;
+    margin: 200px 0 50px;
+}
+header p {
+    margin: 0;
+}
+.asian-chars {
+    width: auto;
+    height: 70px;
+}
+main {
+    margin-top: 200px;
+    font-size: 24px;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 24px 56px 18px;
+    background-color: #11181d;
+    color: white;
+    border: 2px solid #11181d;
+}
+.btn:active,
+.btn:hover {
+    border-color: red;
+}
+footer {
+    margin: 200px 0;
+    font-size: 24px;
+}
+footer p {
+    font-weight: bold;
+}
